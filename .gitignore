@@ -22,8 +22,6 @@ coverage.xml
 # Test files
 !templates/*.py
 !receipts/*.xml
-*.xml
-*.txt
 *test*.*
 *tmp*.*
 !test*.py
