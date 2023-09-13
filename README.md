@@ -83,4 +83,5 @@ If an interviewer has any questions or concerns, one should not hesitate and ask
 appreciated and welcomed. 🙂
 
 Contact person:
+
 * Martynas Degutis, [martynas.degutis@relyits.se](mailto:martynas.degutis@relyits.se)
