@@ -1,0 +1,56 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# IDE cache dirs
+.idea/
+.vscode/
+.vs/
+.DS_Store
+
+# Tool cache
+.mypy_cache/
+.pytest_cache/
+__pycache__
+.venv
+.virtualenv
+
+# Coverage
+.coverage
+.tox
+nosetests.xml
+coverage.xml
+
+# Test files
+!templates/*.py
+!receipts/*.xml
+*.xml
+*.txt
+*test*.*
+*tmp*.*
+!test*.py
+!conftest.py
+
+# Python compiled files
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+_pycache_
+.pytest_cache*
+.pytest_cache/v/cache/
+tests/.pytest_cache/v/cache/nodeids
+venv
