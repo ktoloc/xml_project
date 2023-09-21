@@ -12,7 +12,7 @@ calculates totals, and exports the results to a CSV file.
 Clone the repository:
 
 ```
-git clone https://github.com/ktoloc/scrapy_mongoDB.git
+git clone https://github.com/ktoloc/xml_project.git
 ```
 
 Install requirements file:
@@ -47,7 +47,7 @@ db = mysql.connector.connect(
 )
 ```
 
-7. Run the project using the command (e.g., `main.py`).
+7. Run the project using the command (e.g., `xml-parser.py`).
 
 
 
