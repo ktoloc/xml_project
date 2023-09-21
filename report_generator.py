@@ -14,8 +14,8 @@ logging.basicConfig(filename=log_filename, level=logging.DEBUG, format='%(asctim
 # Database configuration
 db_config = {
     'host': 'localhost',
-    'user': '',
-    'password': '',
+    'user': 'admin',
+    'password': 'admin',
     'database': 'reports',
 }
 
@@ -37,7 +37,7 @@ try:
         current_date = datetime.now()
 
         # Write data to the CSV file
-        csv_file_path = 'output.csv'
+        csv_file_path = 'report.csv'
         with open(csv_file_path, mode='w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file)
 

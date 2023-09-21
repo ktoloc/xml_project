@@ -31,11 +31,11 @@ Download MySQL Community Server: [MySQL Downloads](https://dev.mysql.com/downloa
 
 4. Create a new database for your project (replace `your_database_name` with your desired database name): ```CREATE DATABASE your_database_name;``` 
 
-5. Install the MySQL Connector Library:
+5. Install MySQL Connector for Python:
 ```
-pip install mysql.connector
-```
+pip install mysql-connector-python
 
+```
 6. Replace the placeholders with your MySQL credentials:
 
 ```
@@ -46,8 +46,19 @@ db = mysql.connector.connect(
     database='your_database'
 )
 ```
+7. Run the project using the command (`python xml-parser.py`).
 
-7. Run the project using the command (e.g., `xml-parser.py`).
+## Generating report from MySQL DB to csv file
 
+Replace the placeholders with your MySQL credentials:
 
+```
+db = mysql.connector.connect(
+    host='localhost',
+    user='your_username',
+    password='your_password',
+    database='your_database'
+)
+```
 
+Run the report-generator using the command (`python report_generator.py`).

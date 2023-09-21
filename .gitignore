@@ -1,7 +1,11 @@
 # Add any directories, files, or patterns you don't want to be tracked by version control
 
 # IDE cache dirs
+<<<<<<< HEAD
 .idea/
+=======
+../.idea/
+>>>>>>> b5a3bce (commit)
 .vscode/
 .vs/
 .DS_Store
@@ -52,3 +56,5 @@ _pycache_
 .pytest_cache/v/cache/
 tests/.pytest_cache/v/cache/nodeids
 venv
+!/report.csv
+!/app.log

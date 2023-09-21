@@ -34,7 +34,7 @@ try:
         conn.commit()
 
         # Loop through XML files in a directory
-        xml_directory = 'python.interview-exercise/receipts'
+        xml_directory = 'receipts'
 
         for filename in os.listdir(xml_directory):
             if filename.endswith('.xml'):
@@ -64,9 +64,8 @@ try:
                         cursor.execute(sql_insert, (unit_id, quantity, total_amount))
                         conn.commit()
 
-                    logging.error(f"Error processing {filename}: One or more required elements not found")
-
                 except (ET.ParseError, AttributeError, mysql.connector.Error) as e:
                     logging.error(f"Error processing {filename}: {e}")
+
 except mysql.connector.Error as err:
     logging.error(f"Error connecting to the database: {err}")
